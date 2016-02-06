@@ -1,4 +1,4 @@
-essentials:
+essentials_apt:
   - build-essential
   - curl
   - git
