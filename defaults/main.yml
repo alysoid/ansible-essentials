@@ -2,3 +2,7 @@ essentials_apt:
   - build-essential
   - curl
   - git
+  - python-pip
+  - python-netaddr
+  - python-passlib
+  - uuid-runtime

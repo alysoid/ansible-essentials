@@ -7,3 +7,9 @@
     name: '{{ item }}'
     state: 'present'
   with_items: essentials_apt
+
+- name: Install pip essentials
+  pip:
+    name: '{{ item }}'
+    state: 'present'
+  with_items: essentials_pip
