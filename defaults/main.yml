@@ -6,3 +6,6 @@ essentials_apt:
   - python-netaddr
   - python-passlib
   - uuid-runtime
+
+essentials_pip:
+  - debops
